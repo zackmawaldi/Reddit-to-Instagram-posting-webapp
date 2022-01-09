@@ -1,4 +1,4 @@
-# Reddit-to-Instagram-posting-webapp
+# Reddit to Instagram posting webapp
 Web app I wrote that allows users to use Reddit's praw to automate posts on Instagram (using IG's API).
 Flask is underlying infrastructure.
 
