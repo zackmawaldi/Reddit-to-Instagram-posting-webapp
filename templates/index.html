@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+
+    {% for link in url_list %}
+    <p>{{url_list.index(link) + 1}}.</p>
+
+    <p><a href="/custom_image_link/{{url_list.index(link)}}">
+    <img src="{{link}}" width="100" height="auto" alt="User Image">
+    </a></p>
+    {% endfor %}
+
+    <p>Image selected:</p>
+    <br>
+    <img src="{{pic}}" width="500" height="auto" alt="User Image">
+    <br>
+    <p>{{cap}}</p>
+    <p>{{count}} of 50</p>
+    <p>Custom count</p>
+    <form method="POST" autocomplete="off" action="/custom_image_counter">
+        <input name="custom_image_counter">
+        <input type="submit">
+    </form>
+    <form method="post" action="/next_image">
+        <input type="submit" value="Next image →" name="action1"/>
+    </form>
+        <form method="post" action="/previous_image">
+        <input type="submit" value="← Previous image" name="action1"/>
+    </form>
+        <form method="post" action="/caption">
+        <input type="submit" value="Random caption" name="action1"/>
+    </form>
+        <form method="post" action="/post">
+        <input type="submit" value="POST!" name="action1"/>
+    </form>
+    <p>{{post_outcome}}</p>
+    <p>Custom caption</p>
+    <form method="POST" autocomplete="off">
+        <input name="text">
+        <input type="submit">
+    </form>
+    </form>
+    <form method="post" action="/add_to_schedule">
+        <input type="submit" value="Add to schedule" name="action1"/>
+    </form>
+
+    {% for x in db_list %}
+    <p>{{db_list.index(x) + 1}}.</p>
+
+    <p><a href="/remove_schedule/{{db_list.index(x)}}">
+    <p><img src="{{x[1]}}" width="100" height="auto" alt="User Image"></p>
+    </a></p>
+
+    <p>{{x[3]}}</p>
+    <br>
+
+    {% endfor %}
+
+</body>
+</html>
