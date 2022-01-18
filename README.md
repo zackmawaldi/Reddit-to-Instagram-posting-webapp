@@ -1,7 +1,7 @@
 <p float="left">
-  <img width="310" alt="portfolio_view" src="https://raw.githubusercontent.com/zackmawaldi/Reddit-to-Instagram-posting-webapp/main/screenshots/2.png">
-  <img width="310" alt="portfolio_view" src="https://raw.githubusercontent.com/zackmawaldi/Reddit-to-Instagram-posting-webapp/main/screenshots/1.png">
-  <img width="310" alt="portfolio_view" src="https://raw.githubusercontent.com/zackmawaldi/Reddit-to-Instagram-posting-webapp/main/screenshots/3.png">
+  <img width="200" alt="portfolio_view" src="https://raw.githubusercontent.com/zackmawaldi/Reddit-to-Instagram-posting-webapp/main/screenshots/2.png">
+  <img width="200" alt="portfolio_view" src="https://raw.githubusercontent.com/zackmawaldi/Reddit-to-Instagram-posting-webapp/main/screenshots/1.png">
+  <img width="200" alt="portfolio_view" src="https://raw.githubusercontent.com/zackmawaldi/Reddit-to-Instagram-posting-webapp/main/screenshots/3.png">
 </p>
 
 # Reddit to Instagram posting webapp
