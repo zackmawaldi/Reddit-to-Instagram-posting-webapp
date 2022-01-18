@@ -35,4 +35,4 @@ if schedule:
 
 ### Rights
 
-If you'd like to implement as similar script, feel free to fork! If you're going to use this project, or any aspect of it commercially, let me know first.
+If you'd like to use this script, feel free to fork it! If you're going to use this project, or any aspect of it, commercially, let me know first.
