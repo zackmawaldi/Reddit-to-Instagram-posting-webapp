@@ -1,3 +1,9 @@
+<p float="left">
+  <img width="310" alt="portfolio_view" src="https://raw.githubusercontent.com/zackmawaldi/Reddit-to-Instagram-posting-webapp/main/screenshots/2.png">
+  <img width="310" alt="portfolio_view" src="https://raw.githubusercontent.com/zackmawaldi/Reddit-to-Instagram-posting-webapp/main/screenshots/1.png">
+  <img width="310" alt="portfolio_view" src="https://raw.githubusercontent.com/zackmawaldi/Reddit-to-Instagram-posting-webapp/main/screenshots/3.png">
+</p>
+
 # Reddit to Instagram posting webapp
 Web app I wrote that allows users to use Reddit's praw to automate posts on Instagram (using IG's API).
 Flask is underlying infrastructure.
