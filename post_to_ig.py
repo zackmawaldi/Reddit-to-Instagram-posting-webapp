@@ -1,5 +1,4 @@
 import requests
-import time
 
 
 def post_to_ig(caption, hashtags, img_url, public_fb_page_id, access_token):
