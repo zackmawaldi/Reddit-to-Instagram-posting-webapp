@@ -43,9 +43,6 @@ def post_to_ig(caption, hashtags, img_url, public_fb_page_id, access_token):
     if str(query_result_2) == '<Response [200]>':
         return 1
 
-# post_to_ig('still testing... enjoy this cat stuck in a trash can!', tags, 'https://i.redd.it/u9hh56gf03kz.jpg', '114453107009380', 'EAAHIhk9B2ioBAHWrH1sZCWyAHIcMomURu9OtVFIZBVZBJtEnlSriZBFZBUExO1UaR6rHbqcaxRKX97idSO89yJxeAiQoVc6jjUUARBd5Gic6gI6ydDzyCkDKmtQXPMsZBySB1sn3lCRdgaQd2Ds9gLqlyGB5GBlpgwUwjHeCTC8JqWgs4vE9KJiEaJZAZAp1jLpEJJbhLfEY2QvU7gxHtjN4tyJfqvkSWWQZD')
-# EAAHIhk9B2ioBAKheZBZCovCoq2ch6xQHak7fmyOpAq73GC0AZAQTjfnU76nZC0exsXxP4luL0TZANcjubtBGeiGQ58uXnQOsOFZCrIK76IwsIcdz5ZCSMAdtOINO2saNjrho3KWMITz5Ckn9nQOJOz1QAoLYcwV5yYXUeZBt9H0eiB0lRhlAFNRm8Tk4uStjLDMZD
-
 
 # How to get long lived AT
 # GET "https://graph.facebook.com/{graph-api-version v00.0}/oauth/access_token?grant_type=fb_exchange_token&client_id={app-id}&client_secret={app-secret}&fb_exchange_token={your-access-token}"
